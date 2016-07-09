@@ -1,0 +1,19 @@
+{
+  "name": "graphql-mysql-demo",
+  "version": "1.0.0",
+  "description": "http://graphql.org/docs/getting-started/ extended to connect to a mysql database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "gjsyme",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-graphql": "^0.5.3",
+    "graphql": "^0.6.1",
+    "mysql": "^2.11.1"
+  }
+}
